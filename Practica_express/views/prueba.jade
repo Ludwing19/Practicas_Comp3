@@ -1,0 +1,26 @@
+extends layout 
+
+block content
+
+    body
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css")
+
+    nav(class="navbar navbar-expand-lg bg-primary")
+        div(class="container-fluid")
+            div(class="collapse navbar-collapse" id="navbarNav")
+                ul(class="navbar-nav")
+                    li(class="nav-item")
+                        a(class="nav-link active" aria-current="page" href="/") Principal    
+                    li(class="nav-item")
+                        a(class="nav-link active" aria-current="page" href="/Ludwing") Otra Pagina            
+    br                    
+    p Pagina controladora de #{title}
+    br
+    div(class="card" style="width: 10rem; text-align: center; margin-left: 380px;" )
+        img(src="https://scontent.fsal1-1.fna.fbcdn.net/v/t1.6435-9/120761705_2874021746033411_6619359931205885782_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oBSRDltf4DYAX_1IEUM&_nc_ht=scontent.fsal1-1.fna&oh=00_AT_I5uOYH7nSi7B56y_TAZk_yGLT8FmOYukJpdjJicvfjg&oe=62AE8678", alt="" ,class="card-img-top rounded mx-auto d-block"  )
+        div(class="card-body" style="background-color: #E6E6E6")
+            h6(class="card-title", style="color:blue;") Ludwing perfil
+            p(class="card-text", style="color:green;") Soy estudiante de ingenieria desde el año 2018 y desde entonces ya eh cursado 37 materia
+                  
+
+    
